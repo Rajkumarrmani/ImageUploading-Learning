@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.App.CornerRadius" parent="">
+        <item name="cornerSizeBottomRight">2dp</item>
+        <item name="cornerSizeBottomLeft">2dp</item>
+        <item name="cornerSizeTopLeft">2dp</item>
+        <item name="cornerSizeTopRight">2dp</item>
+    </style>
+
+    <style name="HorizontalProgressAudio" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressTint">@color/purple_200</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="trackColor">@color/white</item>
+    </style>
+
+    <!--BottomSheet-->
+    <style name="BottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="BottomSheet" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:background">@drawable/bottom_sheet_bg</item>
+    </style>
+
+</resources>
